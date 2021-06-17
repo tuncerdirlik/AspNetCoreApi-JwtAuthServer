@@ -11,5 +11,10 @@ namespace JwtAuthServer.Api.Controllers
     [ApiController]
     public class TestController : ControllerBase
     {
+        [HttpGet]
+        public IActionResult TestMethod()
+        {
+            return Ok();
+        }
     }
 }
